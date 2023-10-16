@@ -26,8 +26,6 @@ const realtor = {
 
 console.log(realtor);
 
-
-
 // second array method used 
 const burger = ["pop", "lettuce", "meat"];
  document.getElementById("").innerHTML
@@ -37,8 +35,12 @@ const burger = ["bun", "lettuce", "meat"];
 burger.pop("meat"); // <I was not quite sure why this pop method did not work out here.//
 
 // object method on hot dogs
-  const hotDog:  {ingredient:"Smokie", condiment:"ketchup", price :10}; 
-
-  //array method for 
+    const hotDog:  {ingredient:'Smokie'; condiment:'ketchup'; price :10}; 
 
 
+  //object method for object.keys
+  const keys = Object.keys(hotDog);
+//in this case, the oject.keys method is useful for returning an object property back in the order of an array. 
+
+  document.getElementById().innerHTML = keys;
+ 
