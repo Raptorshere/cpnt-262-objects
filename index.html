@@ -13,15 +13,9 @@
   </style>
 
 <script>
-  const house = {
-  door: 'handle',
-  bed: 'sleep',
- staircase: 'climb',
- television: 'entertain',
-  mirror: 'reflection'
-  const house = ["handle", "sleep", "Apple", "Mango"];
-  document.getElementById("demo1").innerHTML = fruits.shift();
-  document.getElementById("demo2").innerHTML = fruits;
+  const house = ["handle", "sleep", "climb", "entertain", "reflection"];
+  document.getElementById("house").innerHTML = house.shift();
+  document.getElementById("pop").innerHTML = pop;
   </script>
 </head>
 <body>
@@ -32,6 +26,14 @@
     <h3>Hot dog ingredients:</h3></div>
 
   <p>"bun", "lettuce", "meat"</p>
+
+  <div>
+    <h3>Items/objects found in a house</h3></div>
+    <p id="house">door: 'handle',
+      bed: 'sleep',
+     staircase: 'climb',
+     television: 'entertain',
+      mirror: 'reflection'</p> 
 </section>
 
 

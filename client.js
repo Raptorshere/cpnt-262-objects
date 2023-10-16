@@ -10,7 +10,7 @@ const house = {
  staircase: 'climb',
  television: 'entertain',
   mirror: 'reflection'
-};
+}; //I intended to use this example for the shift method
 
 
 // this is where I will log the array variable
@@ -29,7 +29,7 @@ console.log(realtor);
 
 
 // second array method used 
-const burger = ["bun", "lettuce", "meat"];
+const burger = ["pop", "lettuce", "meat"];
  document.getElementById("").innerHTML
 
 //pop method //
@@ -37,7 +37,8 @@ const burger = ["bun", "lettuce", "meat"];
 burger.pop("meat"); // <I was not quite sure why this pop method did not work out here.//
 
 // object method on hot dogs
-  const hotDog:  {ingredient:"Smokie", condiment:"ketchup", price :$10}; 
+  const hotDog:  {ingredient:"Smokie", condiment:"ketchup", price :10}; 
 
+  //array method for 
 
 
