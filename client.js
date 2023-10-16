@@ -26,9 +26,6 @@ const realtor = {
 
 console.log(realtor);
 
-// adding the true or false statement for realtor example
-const highPriceCondo= false
-if (highPriceCondo)
 
 
 // second array method used 
@@ -37,7 +34,7 @@ const burger = ["bun", "lettuce", "meat"];
 
 //pop method //
 const burger = ["bun", "lettuce", "meat"];
-burger.pop("meat");
+burger.pop("meat"); // <I was not quite sure why this pop method did not work out here.//
 
 // object method on hot dogs
   const hotDog:  {ingredient:"Smokie", condiment:"ketchup", price :$10}; 
