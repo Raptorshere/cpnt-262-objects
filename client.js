@@ -26,22 +26,21 @@ const realtor = {
 
 console.log(realtor);
 
-
-if (hungry) {
-  console.log('Time for lunch!');
-}
-
 // adding the true or false statement for realtor example
 const highPriceCondo= false
 if (highPriceCondo)
 
 
 // second array method used 
-const burger = {
-  'bun', 'lettuce', 'meat', )
+const burger = ["bun", "lettuce", "meat"];
+ document.getElementById("").innerHTML
+
+//pop method //
+const burger = ["bun", "lettuce", "meat"];
+burger.pop("meat");
 
 // object method on hot dogs
-  const hotDog:  {ingredient:"Smokie", condiment:"ketchup", :46}; 
+  const hotDog:  {ingredient:"Smokie", condiment:"ketchup", price :$10}; 
 
-  typeof: "ketchup"
+
 
